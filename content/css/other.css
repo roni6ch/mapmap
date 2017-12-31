@@ -1,0 +1,10 @@
+.searchBox input[type=text]:not(.browser-default ):focus:not([readonly]){
+	border-bottom: 1px solid #42A5F5;
+	box-shadow: 0 1px 0 0 #42A5F5;
+}
+.searchBox .input-field .prefix.active , .searchBox input[type=text]:not(.browser-default ):focus:not([readonly])+label{
+	color: #42A5F5;
+}
+.searchBox input[type=text]:not (.browser-default ){
+	-webkit-box-sizing: inherit;
+}

@@ -1,0 +1,53 @@
+<!-- Large view -->
+<div class="searchWrapper hide-on-med-and-down" ng-init="vm.init()">
+	<h3>
+		MapMap <i class="Large material-icons ">home</i> חיפוש חכם
+	</h3>
+
+	<form name="vm.form">
+	<div class="searchBox row">
+
+		<!-- select -->
+		<div class="col s2 right no-padding selectRentOrBuy">
+			<select material-select>
+				<option selected>להשכרה</option>
+				<option>למכירה</option>
+			</select>
+		</div>
+
+		<!-- search Input -->
+		<div class="col s8 right no-padding">
+			<div class="input-field">
+				<input type="text" class="mapsAutoComplete"> <i class="material-icons prefix">create</i>
+			</div>
+		</div>
+		<div class="col s2 right no-padding">
+				<button ng-click="vm.search()"
+					class="btn-search btn  blue lighten-1 hvr-sweep-to-left">חפש</button>
+		</div>
+		<ul class="collapsible" data-collapsible="accordion">
+			<li>
+				<div class="collapsible-header" ng-click="vm.moreOptions()">אפשרויות
+					נוספות</div>
+				<div class="collapsible-body row">
+					<room-type></room-type>
+					<room-num></room-num>
+					<rz-slider min="3000" max="5000"></rz-slider>
+				</div>
+			</li>
+		</ul>
+	</div>
+		</form>
+
+</div>
+
+<!-- Mobile -->
+<div class="searchWrapper hide-on-large-only">
+	<h3>
+		MapMap <i class="Large material-icons ">home</i> חיפוש חכם
+	</h3>
+	<div class="searchBox ">
+		<a href="" class="hvr-rectangle-out">להשכרה</a>
+		<a href="" class="hvr-rectangle-out">למכירה</a>
+	</div>
+</div>

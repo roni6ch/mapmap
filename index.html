@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" ng-app="mapmapApp">
+<head>
+	<title>MapMap</title>
+	<link rel="icon" href="content/images/icnos/icon.png">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- JS -->
+	<script src="content/js/jquery-3.2.1.min.js"></script>
+	<script src="content/js/popper.min.js"></script>
+	<script src="content/js/bootstrap.min.js"></script>
+	<script src="content/js/materialize.min.js"></script>
+	<script src="content/js/underscore.js"></script>
+	<!-- CSS -->
+	<link href="content/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="content/css/materialize.min.css" rel="stylesheet">
+	<link href="content/css/rzslider.min.css" rel="stylesheet" />
+	<link href="content/css/hover-min.css" rel="stylesheet" />
+	<link href="content/css/fonts.css" type="text/css" rel="stylesheet" />
+	<link href="content/css/other.css" type="text/css" rel="stylesheet" />
+	<link href="content/css/style.css" type="text/css" rel="stylesheet" />
+	<!-- GOOGLE Login Button-->
+	<meta name="google-signin-client_id"
+		  content="1030406172046-vlrntkrarjqaau9jbor61j1nqe4gtbja.apps.googleusercontent.com">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+</head>
+<body>
+<div class="wrapper">
+	<nav>
+		<div class="nav-wrapper">
+			<!-- Large view -->
+			<div class="hide-on-med-and-down">
+				<ul class="right">
+					<li><a href="#">להשכרה</a></li>
+					<li><a href="#">למכירה</a></li>
+					<li id="logo"><a href="#/">
+								<span>MapMap <img src="content/images/icons/icon.png"  class="logoImg" /></span>
+					</a></li>
+				</ul>
+				<div class="loginBT g-signin2 left" data-onsuccess="onSignIn" google-sign-in-button
+					 data-theme="dark"></div>
+
+				<div class="btn btn-secondary userProfile" data-container="body"
+					 data-toggle="popover" data-placement="bottom">
+					<img src="">
+				</div>
+
+			</div>
+			<!-- Medium and down -->
+			<div class="hide-on-large-only">
+				<a href="#" data-activates="mobile-demo" class="button-collapse">
+					<i class="material-icons">menu</i>
+				</a>
+				<a href="#/" class="right">
+					<!-- <i class="Large material-icons ">home</i> -->
+					<img src="content/images/icons/icon.png" class="logoImg" />
+				</a>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#">להשכרה</a></li>
+					<li><a href="#">למכירה</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div ng-view></div>
+</div>
+<script src="content/js/angular.min.js"></script>
+<script src="content/js/angular-route.min.js"></script>
+<script src="content/js/ngStorage.min.js"></script>
+<script src="content/js/rzslider.min.js"></script>
+<script src="content/js/angular-materialize.min.js"></script>
+<script src="content/js/site.js"></script>
+</body>
+</html>

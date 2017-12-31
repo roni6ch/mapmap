@@ -1,0 +1,186 @@
+{
+    "apartmentType": ["דירה"],
+    "location": "Derech Menachem Begin, רמת גן, ישראל",
+    "range": [1000, 6000],
+    "roomNum":[1,2,3],
+    "selectRentOrBuy":"להשכרה",
+    "results": [
+      { "id":"121233",
+        "name":"roni",
+        "phones":["050332434","0523232456"],
+        "images":["https://cdn.cliqueinc.com/posts/212361/-2030969-1483470364.640x0c.jpg","https://media.architecturaldigest.com/photos/58d535e3e34bbc355f09b0a7/master/w_768/modern-living-room-mac-ii-new-york-new-york-201208-4_1000-watermarked.jpg"],
+        "email":"fsdsdf@dfsd.com",
+        "apartment":{
+          "id":"232323",
+          "rooms":2,
+          "parking":2,
+          "elevator":true,
+          "price":4000,
+          "size":80,
+          "floor":3,
+          "entrence_date":"1/2/2018",
+          "toilets":2
+        }
+      },
+      { "id":"12332444",
+        "name":"Tomer",
+        "phones":["052323232"],
+        "images":["https://room-matehotels.com/images/img/oscar/rooms.jpg","https://www.citrus11sukhumvit.com/en/gallery/cozy/cozy-1.jpg"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"123213",
+          "rooms":4,
+          "parking":1,
+          "elevator":true,
+          "price":4000,
+          "size":90,
+          "floor":2,
+          "entrence_date":"10/1/2018",
+          "toilets":1
+        }
+      }
+    ,
+      { "id":"12332444",
+        "name":"David",
+        "phones":["05232343"],
+        "images":["https://thumb.housinganywhere.com/legacy/photos/409308_0.jpg?kind=large&legacy=1&nocrop=1&rotate=0"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"3243244",
+          "rooms":4,
+          "parking":1,
+          "elevator":true,
+          "price":4000,
+          "size":83,
+          "floor":6,
+          "entrence_date":"10/1/2018",
+          "toilets":1
+        }
+      }
+    ,
+      { "id":"12332444",
+        "name":"Moshe",
+        "phones":["053243243"],
+        "images":["https://prague.boscolohotels.com/sites/prague.boscolo-hotels.ogilvy.it/files/styles/meettings_e_room/public/prague-room-deluxe-01-boscolo-hotel.jpg?itok=C1lKuw4Q"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"324324324",
+          "rooms":4,
+          "parking":1,
+          "elevator":true,
+          "price":5000,
+          "size":90,
+          "floor":2,
+          "entrence_date":"20/4/2018",
+          "toilets":4
+        }
+      }
+    ,
+      { "id":"12332444",
+        "name":"Dana",
+        "phones":["0523221312"],
+        "images":["https://www.luttrellarms.co.uk/wp-content/uploads/2016/02/rooms-feature-2-720x450.jpg"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"324324",
+          "rooms":2,
+          "parking":4,
+          "elevator":true,
+          "price":3000,
+          "size":20,
+          "floor":5,
+          "entrence_date":"30/1/2018",
+          "toilets":2
+        }
+      },
+      { "id":"121233",
+        "name":"roni",
+        "phones":["050332434","0523232456"],
+        "images":["https://cdn.cliqueinc.com/posts/212361/-2030969-1483470364.640x0c.jpg","https://media.architecturaldigest.com/photos/58d535e3e34bbc355f09b0a7/master/w_768/modern-living-room-mac-ii-new-york-new-york-201208-4_1000-watermarked.jpg"],
+        "email":"fsdsdf@dfsd.com",
+        "apartment":{
+          "id":"232323",
+          "rooms":2,
+          "parking":2,
+          "elevator":true,
+          "price":4000,
+          "size":80,
+          "floor":3,
+          "entrence_date":"1/2/2018",
+          "toilets":2
+        }
+      },
+      { "id":"12332444",
+        "name":"Tomer",
+        "phones":["052323232"],
+        "images":["https://room-matehotels.com/images/img/oscar/rooms.jpg","https://www.citrus11sukhumvit.com/en/gallery/cozy/cozy-1.jpg"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"123213",
+          "rooms":4,
+          "parking":1,
+          "elevator":true,
+          "price":4000,
+          "size":90,
+          "floor":2,
+          "entrence_date":"10/1/2018",
+          "toilets":1
+        }
+      }
+    ,
+      { "id":"12332444",
+        "name":"David",
+        "phones":["05232343"],
+        "images":["https://thumb.housinganywhere.com/legacy/photos/409308_0.jpg?kind=large&legacy=1&nocrop=1&rotate=0"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"3243244",
+          "rooms":4,
+          "parking":1,
+          "elevator":true,
+          "price":4000,
+          "size":83,
+          "floor":6,
+          "entrence_date":"10/1/2018",
+          "toilets":1
+        }
+      }
+    ,
+      { "id":"12332444",
+        "name":"Moshe",
+        "phones":["053243243"],
+        "images":["https://prague.boscolohotels.com/sites/prague.boscolo-hotels.ogilvy.it/files/styles/meettings_e_room/public/prague-room-deluxe-01-boscolo-hotel.jpg?itok=C1lKuw4Q"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"324324324",
+          "rooms":4,
+          "parking":1,
+          "elevator":true,
+          "price":5000,
+          "size":90,
+          "floor":2,
+          "entrence_date":"20/4/2018",
+          "toilets":4
+        }
+      }
+    ,
+      { "id":"12332444",
+        "name":"Dana",
+        "phones":["0523221312"],
+        "images":["https://www.luttrellarms.co.uk/wp-content/uploads/2016/02/rooms-feature-2-720x450.jpg"],
+        "email":"sdf@dfsd.com",
+        "apartment":{
+          "id":"324324",
+          "rooms":2,
+          "parking":4,
+          "elevator":true,
+          "price":3000,
+          "size":20,
+          "floor":5,
+          "entrence_date":"30/1/2018",
+          "toilets":2
+        }
+      }
+    ]
+}
+

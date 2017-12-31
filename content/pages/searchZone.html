@@ -1,0 +1,54 @@
+<div class="searchZoneWrapper " ng-init="vm.init()">
+
+    <!-- search Input -->
+    <div class="searchBox row container-fluid">
+        <div class="col-sm-3 right no-padding">
+            <div class="input-field">
+                <input type="text" class="mapsAutoComplete" value="{{vm.searchResults.location}}"> <i class="material-icons prefix">create</i>
+            </div>
+        </div>
+        <room-type></room-type>
+        <room-num></room-num>
+        <rz-slider min="{{vm.searchResults.range[0]}}" max="{{vm.searchResults.range[1]}}"></rz-slider>
+    </div>
+    <!-- search Results -->
+    <div class="searchZoneResults row">
+
+
+
+        <div class="col-sm-3 searchZoneCards">
+            <div ng-repeat="result in vm.searchResults.results">
+
+
+
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img ng-src="{{result.images[0]}}" class="apartmentImg">
+
+                        <img ng-src="content/images/icons/heart.png" class="heart" />
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>
+                            <span>{{result.apartment.parking}} <img src="content/images/icons/parking.png" /></span>
+                            <span>{{result.apartment.floor}} <img src="content/images/icons/floor.png" /></span>
+                            <span>{{result.apartment.entrence_date}} <img src="content/images/icons/time.png" /></span>
+                            </p>
+                            <p>
+                            <span>{{result.apartment.price}} <img src="content/images/icons/price.png" /></span>
+                            <span>{{result.apartment.rooms}} <img src="content/images/icons/rooms.png" /></span>
+                            <span>{{result.apartment.size}} <img src="content/images/icons/rooms.png" /></span>
+                            </p>
+                            <span>{{result.apartment.toilets}}  <img src="content/images/icons/toilets.png" /></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+            <div id="map"></div>
+        </div>
+    </div>
+
+</div>

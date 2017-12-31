@@ -1,0 +1,313 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: Assistant, Roboto, Arial, sans-serif;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #42A5F5;
+}
+
+.wrapper {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpg) center center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	direction: rtl;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+nav {
+	background-color: transparent;
+}
+
+nav ul a {
+	display: inline-flex;
+	font-size: 1.2rem;
+}
+
+nav ul #logo {
+	font-weight: 600;
+}
+
+nav ul a span {
+	padding: 0px 2px;
+	font-size: 1.2em;
+}
+nav .logoImg{width:25px;}
+nav .nav-wrapper {
+	padding: 0 5%;
+}
+
+nav ul a:hover {
+	background: transparent;
+}
+
+.col {
+	flex-basis: auto;
+}
+
+.loginBT {
+	margin-top: 15px;
+}
+
+.abcRioButtonContents {
+	height: 35px;
+	line-height: 35px !important;
+	position: absolute;
+	left: 35px;
+	right: 0;
+	margin-top: 10px;
+	margin: 0px auto;
+}
+
+.searchWrapper {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	color: #fff;
+	margin: 0 auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+.searchBox {
+	background: rgba(0, 0, 0, .6);
+	border-radius: 3px;
+	padding: 20px 20px 0px 20px;
+	text-align: center;
+}
+
+.searchBox .rzslider .rz-pointer.rz-active:focus {
+	outline: 0;
+}
+
+.searchBox .dropdown-content li {
+	text-align: right;
+	direction: rtl;
+}
+
+.searchBox .select-wrapper {
+	width: 100px;
+}
+
+.searchBox .dropdown-content {
+	position: absolute;
+	top: 70px !important;
+}
+
+.searchBox .select-wrapper input.select-dropdown {
+	text-indent: 20px;
+	font-size: 20px;
+	color:#fff;
+}
+
+.searchBox .select-wrapper span.caret {
+	font-size: 16px;
+	color: #fff;
+}
+
+.searchBox    .dropdown-content li>a, .selectRentOrBuy .dropdown-content li>span
+	{
+	color: rgba(0, 0, 0, .6);
+	border-bottom: 1px solid #ccc;
+}
+
+.searchBox  .input-field.col label {
+	right: 10px;
+	left: auto;
+}
+
+.searchBox .input-field {
+	margin-top: 0px;
+}
+
+.searchBox  .input-field label {
+	right: 0px;
+	left: auto;
+	margin-left: 10px;
+}
+
+.searchBox .input-field .prefix {
+	left: 10px;
+	top: 5px;
+	color: #fff;
+}
+
+.searchBox .btn-search {
+	height: 3rem;
+	font-size: 1.3rem;
+}
+
+.searchBox #autocomplete-input {
+	font-size: 1.3rem;
+}
+.searchBox #mapsAutoComplete{color:#fff;}
+
+.searchWrapper.hide-on-large-only .searchBox {
+	background: transparent;
+}
+
+.searchWrapper.hide-on-large-only a {
+	margin: 14px 5px;
+	display: inline-block;
+	padding: 14px 30px;
+	margin: 30px 5px;
+	border: 1px solid #fff;
+	color: #fff;
+	min-width: 164px;
+	border-radius: 2px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 400;
+	text-shadow: 0 0 6px rgba(0, 0, 0, .8);
+	-webkit-tap-highlight-color: rgba(0, 0, 0, .3);
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.searchBox .input-field.col label {
+	display: inline;
+	right: 25px;
+}
+
+.searchWrapper .collapsible {
+	border: 0px;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	width: 100%;
+}
+
+.searchWrapper  .collapsible-body {
+	padding: 0px;
+	border-bottom: 0px;
+}
+
+.searchWrapper .collapsible-header {
+	background-color: transparent;
+	border-bottom: 0px;
+	display: inline-block;
+	text-align: left;
+	width: 100%;
+	padding: 0px 20px;
+}
+
+.roomType .select-wrapper ul {
+	width: 150px !important;
+	left: -28px !important;
+	top: 52px !important;
+}
+
+.searchWrapper .roomNum p {
+	position: absolute;
+	top: -16px;
+	color: #9e9e9e;
+	transform-origin: 0% 100%;
+	text-align: initial;
+	pointer-events: none;
+}
+
+.searchWrapper .rzslider {
+	margin: 44px 0 15px 0;
+}
+
+.searchWrapper .rzslider .rz-bar {
+	height: 1px;
+}
+
+.rzslider .rz-bubble.rz-limit {
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.rzslider .rz-bubble {
+	color: #42a5f5;
+}
+
+.userProfile {
+	position: absolute;
+	    margin-top: 0.7%;
+	width: 45px;
+	height: 45px;
+	padding: 0px;
+	color: #fff;
+	left: 3%;
+	background: transparent;
+	box-shadow: none;
+	height: 45px;
+	display:none;
+}
+.userProfileCustomClass{cursor: pointer;}
+.userProfile:hover, .userProfile:active, .userProfile:focus {
+	box-shadow: none !important;
+	background-color: transparent !important;;
+	border-color: transparent !important;
+}
+
+.userProfile img {
+	width: 45px;
+	border-radius: 50px;
+	position: absolute;
+	right: 0;
+}
+
+
+/********************************************************************************/
+/*********************************Search Zone************************************/
+/********************************************************************************/
+.searchZoneResults{
+	background: #9996938f;
+}
+.searchZoneWrapper .searchBox{ margin-bottom:0px;   background: rgba(255, 255, 255, 0.24);       padding: 1% 1% 0%;}
+.searchZoneWrapper .roomNum p {
+	position: absolute;
+	top: -16px;
+	color: #9e9e9e;
+	transform-origin: 0% 100%;
+	text-align: initial;
+	pointer-events: none;
+}
+
+.searchZoneWrapper .input-field input{
+	margin: 0;
+	color:#fff;
+}
+
+.searchZoneWrapper .roomNum p, .searchZoneWrapper .searchBox .input-field label{color:#000}
+.searchZoneWrapper .rzslider .rz-bubble{    color: #0049eb;}
+.rzslider .rz-bubble.rz-limit{color:#fff;}
+.searchZoneWrapper .card.horizontal{
+	display: -webkit-box;    margin: 1%;
+	cursor: pointer;
+}
+.searchZoneWrapper .card.horizontal .card-image{
+height: 100px; width:150px;
+}
+ .card.horizontal .card-stacked .card-content{
+padding: 2%;height: 100px;
+ }
+.card.horizontal .card-image .apartmentImg{
+	height:100%;width:150px;
+}
+.searchZoneWrapper .searchZoneCards{
+	overflow: scroll;
+	height: 100vh;
+}
+.card.horizontal .card-image .heart{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	left: 5%;
+	right: auto;
+	top: 5%;
+}
+.searchZoneWrapper #map{
+	height:808px;
+}
